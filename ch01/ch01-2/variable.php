@@ -52,17 +52,23 @@ echo "integer1.string3=".($integer1.$string3)."<br>";
 echo "<br><br>以下開始型態變化<br><br>";
 
 $string4="3a";
+//宣告一個變數string4其值為3a是一個字串
 echo "string4=".$string4."<br>";
 $intstring4=(int)$string4;
+//宣告一個變數intstring4將string4轉成整數後儲存
 echo "(int)string4=".$intstring4."<br>";
 $floatvalstring4=floatval($string4);
+//宣告一個變數floatvalstring4將string4轉成浮點數後儲存
 echo "floatval(string4)=".$floatvalstring4."<br>";
 
 $float3=4.56;
+//宣告一個變數float3其值為4.56是一個浮點數
 echo "float3=".$float3."<br>";
 $intfloat3=(int)$float3;
+//宣告一個變數intfloat3將float3轉成整數後儲存
 echo "(int)float3=".$intfloat3."<br>";
 $stringfloat3=(string)$float3;
+//宣告一個變數stringfloat3將float3轉成字串後儲存
 echo "(string)$float3=".$stringfloat3."<br>";
 
 
