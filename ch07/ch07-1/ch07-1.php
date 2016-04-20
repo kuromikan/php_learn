@@ -18,6 +18,7 @@ function showRand() {
             }
         };
         xmlhttp.open("GET","ch07-1-data.php",true);
+		//跟ch07-1-data.php要值
         xmlhttp.send();
 }
 </script>
@@ -26,6 +27,7 @@ function showRand() {
 <p><b>random</b></p>
 <form> 
 <input type="button" value="Click" onClick="showRand();" >
+<!--點擊按鈕後執行showRand函式-->
 </form>
 <p><span id="txtHint"></span></p>
 

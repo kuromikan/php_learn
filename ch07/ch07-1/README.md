@@ -7,7 +7,7 @@ ajax可用來跟伺服器傳送並接收資料
 
 範例為取亂數分成主頁面跟資料處理頁面
 
-
+詳細應用可至 https://github.com/kuromikan/php_mysql
 
 ##目錄
 
