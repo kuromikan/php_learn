@@ -14,6 +14,7 @@ $_SESSION["名稱"]=值;
 如果需要刪除session可以用下列方法
 
 unset($_SESSION["名稱"]);
+
 session_destroy();
 
 ##目錄
