@@ -1,13 +1,11 @@
-#ch09-1 mysql_connect
+#ch09-2 mysql_query
 
 
-mysql_connect是一個php連線mysql的方法
+在mysql_connect連線資料庫後
 
-mysql_connect的使用方式
+我們可以使用mysql_select_db選擇資料庫
 
-$link = mysql_connect('主機位址', '帳號', '密碼');
-
-這樣就可以跟mysql做連線了
+之後使用mysql_query來送出sql語法來執行
 
 要注意的一點是此方法將在php7後被移除
 
@@ -21,8 +19,8 @@ pdo的使用方法https://github.com/kuromikan/php_pdo
 
 |檔案                                        |說明                                         |
 |--------------------------------------------|---------------------------------------------|
-|[ch09-1](ch09-1.php)                        |mysql_connect的使用                          |
+|[ch09-2](ch09-2.php)                        |mysql_query的使用                            |
 |[sample_db.sql](sample_db.sql)              |範例用的資料庫檔                             |
 
 
-![result](ch09-1.png)
+![result](ch09-2.png)

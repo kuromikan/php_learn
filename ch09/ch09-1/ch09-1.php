@@ -10,4 +10,5 @@ if (!$link) {
 }
 echo '連線成功';
 mysql_close($link);
+//關閉連線
 ?>
